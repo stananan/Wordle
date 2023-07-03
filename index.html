@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="heading">Wordle</h1>
+
+        </header>
+
+        <div id="timer">00:00:00</div>
+
+        <div class="error-div">
+            <h2 class="error-msg">ERROR</h2>
+        </div>
+        <div class="game-over-div">
+            <h2 class="over-msg">GAME OVER</h2>
+            <h3 class="word-msg"></h3>
+            <button class="new-game">New Game?</button>
+        </div>
+        <div class="win-div">
+            <button class="new-game">New Game?</button>
+        </div>
+
+        <div class="game">
+            <table class="game-table">
+                <tr class="game-row">
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                </tr>
+                <tr class="game-row">
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                </tr>
+                <tr class="game-row">
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                </tr>
+                <tr class="game-row">
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                </tr>
+                <tr class="game-row">
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                </tr>
+                <tr class="game-row">
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                    <td class="game-cell"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="keyboard">
+            <div class="row1">
+                <button class="key-letter">Q</button>
+                <button class="key-letter">W</button>
+                <button class="key-letter">E</button>
+                <button class="key-letter">R</button>
+                <button class="key-letter">T</button>
+                <button class="key-letter">Y</button>
+                <button class="key-letter">U</button>
+                <button class="key-letter">I</button>
+                <button class="key-letter">O</button>
+                <button class="key-letter">P</button>
+            </div>
+            <div class="row2">
+                <button class="key-letter">A</button>
+                <button class="key-letter">S</button>
+                <button class="key-letter">D</button>
+                <button class="key-letter">F</button>
+                <button class="key-letter">G</button>
+                <button class="key-letter">H</button>
+                <button class="key-letter">J</button>
+                <button class="key-letter">K</button>
+                <button class="key-letter">L</button>
+            </div>
+            <div class="row3">
+                <button class="key-enter key-letter">ENTER</button>
+                <button class="key-letter">Z</button>
+                <button class="key-letter">X</button>
+                <button class="key-letter">C</button>
+                <button class="key-letter">V</button>
+                <button class="key-letter">B</button>
+                <button class="key-letter">N</button>
+                <button class="key-letter">M</button>
+                <button class="key-backspace">BACKSPACE</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

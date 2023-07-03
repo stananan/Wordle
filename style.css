@@ -1,0 +1,155 @@
+body {
+    background-color: rgb(89, 87, 87);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+}
+
+header {
+    margin: auto;
+    font-size: 150%;
+
+}
+
+.heading {
+    text-align: center;
+    font-size: 450%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+.game-table {
+    margin: auto;
+
+    border-spacing: 20px;
+}
+
+
+
+.game-cell {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 350%;
+}
+
+.letter-in-word {
+    background-color: yellow;
+}
+
+.letter-in-same {
+    background-color: green;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    justify-content: center;
+}
+
+.key-letter,
+.key-backspace {
+    margin: 5px;
+    font-size: 150%;
+    background-color: rgb(128, 126, 126);
+}
+
+
+.yellow {
+    background-color: yellow;
+}
+
+.grey {
+    background-color: rgb(47, 47, 47);
+}
+
+.green {
+    background-color: green;
+}
+
+.game-over-div {
+    margin: auto;
+    text-align: center;
+    font-size: 250%;
+}
+
+.word-msg {
+    font-size: 70%;
+}
+
+.new-game {
+    font-size: 80%;
+    background-color: rgb(79, 79, 79);
+}
+
+.error-div {
+    margin: auto;
+    text-align: center;
+    font-size: 200%;
+    color: red;
+}
+
+.over-msg {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#timer {
+    margin: auto;
+    text-align: center;
+    font-size: 250%;
+}
+
+.win-div {
+    margin: auto;
+    text-align: center;
+    font-size: 250%;
+
+}
+
+
+@media (max-width: 600px) {
+
+    .heading {
+        text-align: center;
+        font-size: 350%;
+        margin-bottom: 1%;
+        margin-top: 2%;
+    }
+
+    .error-div {
+        margin: auto;
+        text-align: center;
+        font-size: 100%;
+        color: red;
+    }
+
+    .key-letter,
+    .key-backspace {
+        margin: 5px;
+        font-size: 80%;
+    }
+
+    .game-cell {
+        border: 1px solid black;
+        width: 40px;
+        height: 40px;
+        margin-bottom: 5%;
+        text-align: center;
+        font-size: 150%;
+    }
+}
